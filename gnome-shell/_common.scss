@@ -1,4 +1,4 @@
-$corner-radius: 2px;
+$corner-radius: 20px;
 
 
 /* GLOBALS */
@@ -781,7 +781,7 @@ StScrollBar {
 
 #panel {
   background-gradient-direction: none;
-  background-color: $topbar_bg_color;
+  background-color: #1bc40c /*$topbar_bg_color*/;
   /* transition from solid to transparent */
   transition-duration: 500ms;
   font-weight: bold;
