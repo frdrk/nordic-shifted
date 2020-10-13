@@ -61,7 +61,7 @@
     &:focus, & {
       @extend %selected_items;
 
-      border-radius: 3px;
+      border-radius: 8px;
     }
   }
 }
@@ -90,7 +90,7 @@ flowbox {
 
   flowboxchild {
     padding: 3px;
-    border-radius: 3px;
+    border-radius: 8px;
 
     &:selected {
       @extend %selected_items;
