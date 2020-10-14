@@ -1,22 +1,22 @@
 {
-  "name": "nordic",
+  "name": "nordic-shift",
   "version": "1.0.0",
-  "description": "Dark theme created using the awesome Nord color pallete",
+  "description": "Dark theme based on the fantastic Nordic theme",
   "main": "index.js",
   "scripts": {
     "build": "git push && sh install.sh"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EliverLara/Nordic.git"
+    "url": "git+https://github.com:frdrk/nordic-shifted.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EliverLara/Nordic/issues"
+    "url": "https://github.com/frdrk/nordic-shifted/issues"
   },
-  "homepage": "https://github.com/EliverLara/Nordic#readme",
+  "homepage": "https://github.com/frdrk/nordic-shifted/#readme",
   "dependencies": {
     "gulp": "^4.0.0",
     "gulp-exec": "^2.1.3",
