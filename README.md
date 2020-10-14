@@ -1,7 +1,7 @@
 
 ![](Art/nordic-shifted-theme-screenshot.jpg)
 
-> Nordic is a Gtk3.20+ theme based on the fantastic [Nordic](https://github.com/EliverLara/Nordic) color palette.
+> Nordic is a Gtk3.20+ theme based on the fantastic [Nordic](https://github.com/EliverLara/Nordic).
 
 #### Wat?
 Fork of [Nordic](https://github.com/EliverLara/Nordic) with the palette shifted towards darker and slightly more saturated and luminous colors. Floating Gnome top panel.
