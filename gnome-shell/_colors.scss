@@ -46,3 +46,21 @@ $backdrop_fg_color: transparentize($fg_color, 0.2);
 $backdrop_insensitive_color: lighten($backdrop_bg_color, 15%);
 $backdrop_borders_color: mix($borders_color, $bg_color, 90%);
 $backdrop_dark_fill: mix($backdrop_borders_color,$backdrop_bg_color, 35%);
+
+//frdrk
+$nord0: #242933;
+$nord1: #2E3440;
+$nord2: #3B4252;
+$nord3: #434C5E;
+$nord4: #d8dee9;
+$nord5: #e5e9f0;
+$nord6: #eceff4;
+$nord7:  #92CBCA;
+$nord8:  #83C6DA;
+$nord9:  #7DADDD;
+$nord10: #5686C2;
+$nord11: #D05F6A;
+$nord12: #ED9073;
+$nord13: #F5CF82;
+$nord14: #A1C780;
+$nord15: #BB84B1;

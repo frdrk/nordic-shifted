@@ -2,9 +2,10 @@
 * Drawing mixins *
 *****************/
 /* GLOBALS */
+/* frdrk - theme color, transparency */
 stage {
   font-family: Roboto, Ubuntu, Cantarell, Sans-Serif;
-  font-size: 10pt;
+  font-size: 12pt;
   color: #d8dee9; }
 
 /* WIDGETS */
@@ -230,7 +231,7 @@ StScrollBar {
   .modal-dialog .run-dialog-button-box {
     padding-top: 1em; }
   .modal-dialog .run-dialog-label {
-    font-size: 11pt;
+    font-size: 13pt;
     font-weight: bold;
     color: #b7c2d7;
     padding-bottom: .4em; }
@@ -239,7 +240,7 @@ StScrollBar {
 
 .mount-dialog-subject,
 .end-session-dialog-subject {
-  font-size: 13pt; }
+  font-size: 16pt; }
 
 /* Message Dialog */
 .message-dialog-main-layout {
@@ -697,29 +698,30 @@ StScrollBar {
   border: 1px solid #8fbcbb; }
 
 .tile-preview-left.on-primary {
-  border-radius: 2px 2px 0 0; }
+  border-radius: 6px 6px 0 0; }
 
 .tile-preview-right.on-primary {
-  border-radius: 0 2px 0 0; }
+  border-radius: 0 6px 0 0; }
 
 .tile-preview-left.tile-preview-right.on-primary {
-  border-radius: 2px 2px 0 0; }
+  border-radius: 6px 6px 0 0; }
 
 /* TOP BAR */
+/* frdrk - rounded corners, padding, margin */
 #panel {
-  background-gradient-direction: none;
-  background-color: #1d2128;
-  /* transition from solid to transparent */
-  transition-duration: 500ms;
+  background-color: rgba(46, 52, 64, 0.85);
+  transition-duration: 250ms;
   font-weight: bold;
-  height: 2.46em;
-  padding: 0px 0px; }
+  height: 38px;
+  border-radius: 6px;
+  padding: 0px 10px;
+  margin: 6px 6px 0 6px; }
   #panel.unlock-screen, #panel.login-screen, #panel.lock-screen {
     background-color: transparent; }
   #panel #panelLeft, #panel #panelCenter {
     spacing: 4px; }
   #panel .panel-corner {
-    -panel-corner-radius: 0px;
+    -panel-corner-radius: 4px;
     -panel-corner-background-color: rgba(0, 0, 0, 0.2);
     -panel-corner-border-width: 2px;
     -panel-corner-border-color: transparent; }
@@ -745,7 +747,7 @@ StScrollBar {
     #panel .panel-button .popup-menu-arrow {
       icon-shadow: 0px 0px 2px rgba(0, 0, 0, 0.9); }
     #panel .panel-button:hover {
-      background: #323946;
+      background: rgba(67, 76, 94, 0.85);
       color: #f9fafb; }
     #panel .panel-button:active, #panel .panel-button:overview, #panel .panel-button:focus, #panel .panel-button:checked {
       background: #8fbcbb;
@@ -1292,7 +1294,7 @@ StScrollBar {
 #dash {
   font-size: 9pt;
   color: #d8dee9;
-  background-color: #1d2128;
+  background-color: rgba(46, 52, 64, 0.85);
   padding: 6px 0;
   border: 1px solid #1f232b;
   border-left: 0px;
@@ -1314,7 +1316,7 @@ StScrollBar {
   border-radius: 7px;
   padding: 4px 12px;
   color: #d8dee9;
-  background-color: #1d2128;
+  background-color: rgba(46, 52, 64, 0.85);
   text-align: center;
   -x-offset: 8px; }
 
